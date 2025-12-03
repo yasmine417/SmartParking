@@ -10,7 +10,7 @@ public class WebClientConfig {
     @Bean
     public WebClient webClient() {
         return WebClient.builder()
-                .baseUrl("https://api.example.com") // Base URL de ton service externe
+                .baseUrl("https://api.example.com") 
                 .build();
     }
 }
